@@ -1,0 +1,133 @@
+//------General Formatting Rules-----
+#masthead{
+	background-color:$color-lightgray;
+	padding:10px 0;
+}
+
+a:visited{
+	color: inherit;
+}
+
+a{
+	color: white;
+	text-decoration:none!important;
+	outline: none !important;
+	transition:0.2s all;
+}
+
+a:active, a:hover{
+	text-decoration:none;
+	color:$color-highlight;
+	transition:0.2s all;
+}
+
+ul
+{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+p{
+	font-size:16px;
+	font-family:$font-secondary;
+	font-weight:300;
+}
+
+//standard button
+.standard-button{
+	display:inline-block;
+	text-align:center;
+	letter-spacing:1px;
+	line-height:40px;
+	width:200px;
+	height:40px;
+	font-size:13px;
+	text-transform:uppercase;
+	border-radius:5px;
+	background-color: #ec8912;
+	color:white;
+
+	&:hover, &:active{
+		text-decoration:none;
+		color:white;
+		background-color:$color-highlight;
+	}
+
+	&:visited{
+		color:white;
+	}
+}
+
+//typical page header
+.entry-header{
+	color:$color-text;
+	padding:20px 0;
+	border-bottom:1px solid #d6d6d6;
+
+	h1{
+		font-weight:300;
+		font-size:30px;
+	}
+}
+
+//general text at top of each page
+.introduction{
+	h3.prominent{
+		text-align:left;
+		padding-top:20px;
+		margin-bottom:60px;
+	}
+}
+
+//Footer Fix (so it always sits at the bottom)
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#page {
+	min-height:100%;
+	position:relative;
+}
+
+#content {
+	padding-bottom:$footer-height; /* Height of the footer element */
+}
+
+#mastfooter {
+	background-color:$color-gray;
+	width:100%;
+	height:$footer-height;
+	position:absolute;
+	bottom:0;
+	left:0;
+
+	.site-info{
+		padding-top:20px;
+	}
+
+	#footer-menu{
+		margin:0;
+		padding:0;
+		li{
+			display:inline-block;
+
+			a{
+				color:white;
+				padding:20px;
+				padding-left:0;
+				font-family: $font-secondary;
+				font-size:16px;
+
+				&:hover{
+					color:$color-highlight;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}

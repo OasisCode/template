@@ -1,0 +1,30 @@
+$color-primary: #7892CF;
+$color-secondary: #7892CF;
+$lighten-primary: lighten($color-primary, 20%);
+$lighten-secondary: lighten($color-secondary, 20%);
+$darken-primary: darken($color-primary, 20%);
+$darken-secondary: darken($color-secondary, 20%);
+
+
+
+$color-highlight: #FF8C00;
+$color-text: #11153e;
+$color-lightgray: #e6e6e6;
+$color-gray: #d6d6d6;
+
+
+
+$font-primary: "Roboto Slab";
+$font-secondary: "Roboto";
+
+$footer-height: 100px;
+$check-size:35px; //for the checklist formatting
+
+//Standard max width values
+$breakpoint-m: 767px; //use for max-width (m stands for mobile)
+$breakpoint-mt: 991px; //use for max-width (mt stands for mobile-tablet)
+$breakpoint-mtd:1199px; //use for max-width (mtd stands for mobile-tablet-desktop)
+
+//Standard min-width values
+$breakpoint-d-only:992px; //use for min-width (desktop only)
+$breakpoint-td-only:768px; //use for min-width (tablet and desktop only)
