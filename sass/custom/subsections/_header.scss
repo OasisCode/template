@@ -3,7 +3,7 @@
 //****HEADER****//
 
 #masthead {
-	background-color: #333;
+	background-color: $color-gray-dark;
 	width: 100%;
 	padding: 0;
 	transition: 0.5s all;
@@ -24,6 +24,11 @@
 		}
 	}
 
+	.navbar-brand{
+		font-family:$font-primary;
+		color:white;
+	}
+
 	.current_page_item a {
 		border: solid 2px #fff;
 		color: $color-text;
@@ -32,7 +37,7 @@
 	}
 
 	.main-navigation {
-		font-family: $font-primary;
+		font-family: $font-secondary;
 		color: $color-text;
 		letter-spacing: 1px;
 		// float: right;
@@ -44,7 +49,7 @@
 		li a {
 			text-transform: uppercase;
 			font-size: 1.5em;
-			color: $color-lightgray;
+			color: $color-gray-light;
 			display: inline-block;
 			margin-left: 5px;
 			margin-right: 5px;
@@ -63,7 +68,7 @@
 			background-color: #333;
 			letter-spacing: 1px;
 			a {
-				color: darken($color-lightgray, 15%);
+				color: darken($color-gray-light, 15%);
 			}
 
 		}
@@ -72,7 +77,6 @@
 			background-color: inherit;
 			
 		}
-
 
 	}
 

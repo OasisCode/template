@@ -7,3 +7,10 @@
 
 
 //Enter your CSS here
+#landing,#about,#services,#gallery,#contact{
+	height:500px;
+}
+
+#services, #contact{
+	background-color:$color-gray-light;
+}

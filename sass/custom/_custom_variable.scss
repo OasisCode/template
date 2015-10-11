@@ -1,23 +1,21 @@
-$color-primary: #7892CF;
-$color-secondary: #7892CF;
-$lighten-primary: lighten($color-primary, 20%);
-$lighten-secondary: lighten($color-secondary, 20%);
-$darken-primary: darken($color-primary, 20%);
-$darken-secondary: darken($color-secondary, 20%);
+$color-primary: #f8981d;
+$color-secondary: #1fc0af;
 
+$color-primary-light: #fcb146;
+$color-secondary-light: #46e6d5;
+$color-primary-dark: #ec8a22;
+$color-secondary-dark: #139e83;
 
+$color-highlight: #f8981d; //same as primary colour (try to get rid of this)
+$color-text: #4b4b4b;
+$color-gray-light: #f2f2f2;
+$color-gray: #ddd;
+$color-gray-dark: #4b4b4b;
 
-$color-highlight: #FF8C00;
-$color-text: #11153e;
-$color-lightgray: #e6e6e6;
-$color-gray: #d6d6d6;
+$font-primary: "Petit Formal Script";
+$font-secondary: "Lato";
 
-
-
-$font-primary: "Roboto Slab";
-$font-secondary: "Roboto";
-
-$footer-height: 100px;
+$footer-height: 250px;
 $check-size:35px; //for the checklist formatting
 
 //Standard max width values

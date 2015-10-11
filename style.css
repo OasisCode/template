@@ -615,7 +615,7 @@ object {
 # Custom Styles
 --------------------------------------------------------------*/
 #masthead {
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
   padding: 10px 0; }
 
 a:visited {
@@ -629,7 +629,7 @@ a {
 
 a:active, a:hover {
   text-decoration: none;
-  color: #FF8C00;
+  color: #f8981d;
   transition: 0.2s all; }
 
 ul {
@@ -639,7 +639,7 @@ ul {
 
 p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Lato";
   font-weight: 300; }
 
 .standard-button {
@@ -657,12 +657,12 @@ p {
   .standard-button:hover, .standard-button:active {
     text-decoration: none;
     color: white;
-    background-color: #FF8C00; }
+    background-color: #f8981d; }
   .standard-button:visited {
     color: white; }
 
 .entry-header {
-  color: #11153e;
+  color: #4b4b4b;
   padding: 20px 0;
   border-bottom: 1px solid #d6d6d6; }
   .entry-header h1 {
@@ -685,13 +685,13 @@ body {
   position: relative; }
 
 #content {
-  padding-bottom: 100px;
+  padding-bottom: 250px;
   /* Height of the footer element */ }
 
 #mastfooter {
-  background-color: #d6d6d6;
+  background-color: #ddd;
   width: 100%;
-  height: 100px;
+  height: 250px;
   position: absolute;
   bottom: 0;
   left: 0; }
@@ -706,14 +706,14 @@ body {
         color: white;
         padding: 20px;
         padding-left: 0;
-        font-family: "Roboto";
+        font-family: "Lato";
         font-size: 16px; }
         #mastfooter #footer-menu li a:hover {
-          color: #FF8C00;
+          color: #f8981d;
           text-decoration: none; }
 
 #masthead {
-  background-color: #333;
+  background-color: #4b4b4b;
   width: 100%;
   padding: 0;
   transition: 0.5s all;
@@ -726,36 +726,39 @@ body {
       background-color: transparent; }
     #masthead.fix-head p {
       display: none; }
+  #masthead .navbar-brand {
+    font-family: "Petit Formal Script";
+    color: white; }
   #masthead .current_page_item a {
     border: solid 2px #fff;
-    color: #11153e;
+    color: #4b4b4b;
     position: relative;
     top: -2px; }
   #masthead .main-navigation {
-    font-family: "Roboto Slab";
-    color: #11153e;
+    font-family: "Lato";
+    color: #4b4b4b;
     letter-spacing: 1px; }
     #masthead .main-navigation li a {
       text-transform: uppercase;
       font-size: 1.5em;
-      color: #e6e6e6;
+      color: #f2f2f2;
       display: inline-block;
       margin-left: 5px;
       margin-right: 5px;
       padding: 10px; }
       #masthead .main-navigation li a:hover {
-        color: #11153e;
-        background-color: #7892CF; }
+        color: #4b4b4b;
+        background-color: #f8981d; }
     #masthead .main-navigation .dropdown-menu {
       font-size: 0.7em;
       background-color: #333;
       letter-spacing: 1px; }
       #masthead .main-navigation .dropdown-menu a {
-        color: silver; }
+        color: #cccccc; }
     #masthead .main-navigation .open > a {
       background-color: inherit; }
   #masthead .site-branding {
-    font-family: "Roboto Slab";
+    font-family: "Petit Formal Script";
     color: #fff;
     font-size: 2em;
     display: inline-block; }
@@ -778,8 +781,8 @@ body {
     text-align: center;
     width: 50%; }
     #content .section .sectionHead h2 {
-      font-family: "Roboto Slab";
-      color: #11153e;
+      font-family: "Petit Formal Script";
+      color: #4b4b4b;
       font-size: 56px;
       font-weight: 300; }
   #content .section .sectionText {
@@ -787,8 +790,8 @@ body {
     text-align: center;
     width: 50%; }
     #content .section .sectionText h3 {
-      font-family: "Roboto Slab";
-      color: #11153e;
+      font-family: "Petit Formal Script";
+      color: #4b4b4b;
       font-weight: 300; }
   #content .section .sectionContent {
     margin: auto;
@@ -805,7 +808,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #twoColumns .sectionContent {
     width: 100%; }
   #content #twoColumns .box {
@@ -828,7 +831,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #threeColumns .sectionContent {
     width: 100%; }
   #content #threeColumns .box {
@@ -851,7 +854,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #fourColumns .sectionContent {
     width: 100%; }
   #content #fourColumns .box {
@@ -874,7 +877,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #threeColumnsFontAwesome .sectionContent {
     width: 100%; }
   #content #threeColumnsFontAwesome .box {
@@ -900,7 +903,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #threeColumnsImages .sectionContent {
     width: 100%; }
   #content #threeColumnsImages .box {
@@ -930,7 +933,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #threeRowsImages .sectionContent {
     width: 100%; }
   #content #threeRowsImages .box {
@@ -965,7 +968,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #fourRowsPingPong .sectionContent {
     width: 100%; }
   #content #fourRowsPingPong .box {
@@ -1011,7 +1014,7 @@ body {
     color: #000000;
     margin-bottom: 15px;
     margin-top: 15px;
-    font-family: "Roboto Slab"; }
+    font-family: "Petit Formal Script"; }
   #content #checkmarkList .sectionContent {
     width: 100%; }
   #content #checkmarkList .box {
@@ -1088,10 +1091,10 @@ body {
   padding-top: 110px; }
   .hover-fade .caption-text p {
     font-size: 18px;
-    color: #11153e;
+    color: #4b4b4b;
     font-weight: 500; }
   .hover-fade .caption-text h3 {
-    color: #11153e;
+    color: #4b4b4b;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700; }
@@ -1139,10 +1142,10 @@ body {
   top: 20px; }
   .hover-slideup .caption-text p {
     font-size: 18px;
-    color: #11153e;
+    color: #4b4b4b;
     font-weight: 500; }
   .hover-slideup .caption-text h3 {
-    color: #11153e;
+    color: #4b4b4b;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700; }
@@ -1188,7 +1191,7 @@ body {
   -ms-transition: all 0.45s ease-in-out;
   transition: all 0.45s ease-in-out; }
 .hover-shiftup .blur {
-  background-color: #7892CF;
+  background-color: #f8981d;
   height: 262.5px;
   width: 350px;
   z-index: 5;
@@ -1202,10 +1205,10 @@ body {
   top: 20px; }
   .hover-shiftup .caption-text p {
     font-size: 18px;
-    color: #11153e;
+    color: #4b4b4b;
     font-weight: 500; }
   .hover-shiftup .caption-text h3 {
-    color: #11153e;
+    color: #4b4b4b;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700; }
@@ -1259,10 +1262,10 @@ body {
   padding-top: 110px; }
   .hover-zoom .caption-text p {
     font-size: 18px;
-    color: #11153e;
+    color: #4b4b4b;
     font-weight: 500; }
   .hover-zoom .caption-text h3 {
-    color: #11153e;
+    color: #4b4b4b;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700; }
@@ -1279,13 +1282,13 @@ body {
     position: relative; }
 
   #content {
-    padding-bottom: 100px;
+    padding-bottom: 250px;
     /* Height of the footer element */ }
 
   #mastfooter {
-    background-color: #d6d6d6;
+    background-color: #ddd;
     width: 100%;
-    height: 100px;
+    height: 250px;
     position: absolute;
     bottom: 0;
     left: 0; }
@@ -1300,10 +1303,10 @@ body {
           color: white;
           padding: 20px;
           padding-left: 0;
-          font-family: "Roboto";
+          font-family: "Lato";
           font-size: 16px; }
           #mastfooter #footer-menu li a:hover {
-            color: #FF8C00;
+            color: #f8981d;
             text-decoration: none; } }
 .navbar-default, .navbar {
   background-color: inherit;
@@ -1319,5 +1322,10 @@ body {
 @media (min-width: 768px) {
   .navbar-nav {
     float: right; } }
+#landing, #about, #services, #gallery, #contact {
+  height: 500px; }
+
+#services, #contact {
+  background-color: #f2f2f2; }
 
 /*# sourceMappingURL=style.css.map */
