@@ -1,102 +1,56 @@
-//****************************************** FIXED HEADER ON SCROLL ********************************************//
-
 //****HEADER****//
-
 #masthead {
-	background-color: $color-gray-dark;
-	width: 100%;
-	padding: 0;
-	transition: 0.5s all;
-	z-index: 20;
 
-	&.fix-head{
-		background-color: rgba(0,0,0,0.7);
-		position: fixed;
-		// padding-top: 10px;
-		transition: 0.5s all;
-
-		.mainTitle {
-			background-color: rgba(0,0,0,0)
-		}
-
-		p {
-			display: none;
-		}
-	}
-
+	//The logo section
 	.navbar-brand{
-		font-family:$font-primary;
-		color:white;
+		
 	}
 
+	//formatting on current page
 	.current_page_item a {
-		border: solid 2px #fff;
-		color: $color-text;
-		position: relative;
-		top: -2px;
+	
 	}
 
+	//
 	.main-navigation {
 		font-family: $font-secondary;
 		color: $color-text;
 		letter-spacing: 1px;
-		// float: right;
-		// width: auto;
-		// display: inline-block;
-		// padding-top: 5px;
 		
-
-		li a {
-			text-transform: uppercase;
-			font-size: 1.5em;
-			color: $color-gray-light;
-			display: inline-block;
-			margin-left: 5px;
-			margin-right: 5px;
-			padding: 10px;
-
-			&:hover {
-				color: $color-text;
-				background-color: $color-primary;
-			}
-		}
-
+		//desktop navbar
+		.navbar-nav {
 		
+			li {
 
-		.dropdown-menu {
-			font-size: 0.7em;
-			background-color: #333;
-			letter-spacing: 1px;
-			a {
-				color: darken($color-gray-light, 15%);
+				//styling for current page
+				&.current_page_item a {
+					
+				}
 			}
 
-		}
+			.dropdown-menu {
+				font-size: 0.7em;
+				background-color: #333;
+				letter-spacing: 1px;
+				a {
+					color: darken($color-gray-light, 15%);
+				}
+			}
+
+		} // End of navbar-nav
 
 		.open>a {
 			background-color: inherit;
 			
 		}
 
-	}
+	}  // End of main-navigation
 
-	.site-branding {
-		font-family: $font-primary;
-		color: #fff;
-		font-size: 2em;
-		display: inline-block;
+} //end of mastheader
 
-		h1 a {
-			font-weight: 900;
-		}
-	}
 
-	.site-title {
-		margin: 0px;
-	}
-}
-
-@media (max-width: 767px) {
+//Center menu items
+@media (max-width: $screen-md-max) {
 	.navbar-nav {
 		text-align: center;
 		.open {
@@ -104,7 +58,5 @@
 				text-align: center;
 			}	
 		}
-	}
-
-	
+	}	
 }

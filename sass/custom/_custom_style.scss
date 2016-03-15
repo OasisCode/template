@@ -1,16 +1,20 @@
-@import "subsections/general";
-@import "subsections/header";
-@import "subsections/template";
-@import "subsections/image-hover";
-@import "subsections/footer";
-@import "subsections/navbar";
+@import "subsections/bootstrap"; //for customizing bootstrap (if needed)
+@import "subsections/general"; //for defining site-wide styling
+@import "subsections/header"; //Header CSS
+@import "subsections/footer"; //Footer CSS
 
+//Import your additional sheets here
+@import "subsections/homepage"; //homepage styling
 
-//Enter your CSS here
-#landing,#about,#services,#gallery,#contact{
-	height:500px;
+//Include your custom fonts (if they can't be added in functions.php)
+
+@font-face {
+	font-family: 'Lato-Light';
+	src: url("fonts/Lato-Light.ttf");
 }
 
-#services, #contact{
-	background-color:$color-gray-light;
+@font-face {
+	font-family: 'Lato';
+	src: url("fonts/Lato-Regular.ttf");
 }
+

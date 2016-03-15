@@ -1,28 +1,25 @@
-$color-primary: #f8981d;
-$color-secondary: #1fc0af;
+//Additional Custom Variables on top of WordPress
 
-$color-primary-light: #fcb146;
+$color-primary: #0D9FB7;
+$color-secondary: #7AC943;
+
+$color-primary-light: #26D2DB;
 $color-secondary-light: #46e6d5;
-$color-primary-dark: #ec8a22;
+$color-primary-dark: #076684;
 $color-secondary-dark: #139e83;
 
 $color-highlight: #f8981d; //same as primary colour (try to get rid of this)
-$color-text: #4b4b4b;
-$color-gray-light: #f2f2f2;
-$color-gray: #ddd;
+$color-text: #404040;
+$color-gray-light: #e6e6e6;
+$color-gray: #ccc;
 $color-gray-dark: #4b4b4b;
 
-$font-primary: "Petit Formal Script";
-$font-secondary: "Lato";
+$font-primary: "Lato";
+$font-secondary: "Average";
 
-$footer-height: 250px;
+$footer-height: 120px;
+$footer-color: #4F504F;
 $check-size:35px; //for the checklist formatting
 
 //Standard max width values
-$breakpoint-m: 767px; //use for max-width (m stands for mobile)
-$breakpoint-mt: 991px; //use for max-width (mt stands for mobile-tablet)
-$breakpoint-mtd:1199px; //use for max-width (mtd stands for mobile-tablet-desktop)
-
-//Standard min-width values
-$breakpoint-d-only:992px; //use for min-width (desktop only)
-$breakpoint-td-only:768px; //use for min-width (tablet and desktop only)
+    //USE BOOTSTRAP VARIABLE SETTINGS

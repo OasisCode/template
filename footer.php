@@ -11,13 +11,14 @@
 	</div><!-- #content -->
 	
 	<footer id="mastfooter" class="site-footer" role="contentinfo">
-		<div class="container">
-			<div class="site-info">
+		<div class="site-info">
+			<div class="container">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'footer-menu' ) ); ?>
-			</div><!-- .site-info -->
-		</div>
+			</div>
+		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
-</div><!-- #page -->
+
+</div> <!-- #page -->
 
 <?php wp_footer(); ?>
 
