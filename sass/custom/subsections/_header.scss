@@ -1,50 +1,31 @@
 //****HEADER****//
 #masthead {
-
-	//The logo section
-	.navbar-brand{
-		
-	}
-
-	//formatting on current page
-	.current_page_item a {
 	
-	}
-
-	//
-	.main-navigation {
-		font-family: $font-secondary;
-		color: $color-text;
-		letter-spacing: 1px;
+	//main menu
+	.navbar{
 		
-		//desktop navbar
-		.navbar-nav {
-		
-			li {
-
-				//styling for current page
-				&.current_page_item a {
-					
-				}
-			}
-
-			.dropdown-menu {
-				font-size: 0.7em;
-				background-color: #333;
-				letter-spacing: 1px;
-				a {
-					color: darken($color-gray-light, 15%);
-				}
-			}
-
-		} // End of navbar-nav
-
-		.open>a {
-			background-color: inherit;
+		ul#primary-menu{
 			
+			//text formating for header menu items
+			>li{
+				a{
+				
+				}
+			}
+
 		}
 
-	}  // End of main-navigation
+		//The logo section
+		.navbar-brand{
+			padding:0;
+			padding-top:10px;
+
+			img{    
+				
+			}
+
+		}
+	
 
 } //end of mastheader
 

@@ -13,7 +13,7 @@ button.standard{
 	font-size:15px;
 	width:200px;
 	padding:15px 0;
-	background-color:$color-primary-dark;
+	background-color:$gray;
 	box-shadow:none;
 	border-radius:0;
 	border:none;
@@ -21,14 +21,14 @@ button.standard{
 
 	&:hover{
 		box-shadow:none;
-		background-color: $color-primary;
+		background-color: $gray;
 	}
 }
 
 //general text settings
 h3{
 	font-family: $font-primary;
-	color:$color-primary-dark;
+	color:$gray;
 	margin-bottom:0px;
 	font-weight: 300;
 	font-size: 24px;
@@ -40,7 +40,7 @@ h2{
 	margin-bottom:0px;
 	margin-top: 0;
 	padding:15px;
-	background-color:$color-primary;
+	background-color:$gray;
 	color:white;
 	text-align:center;
 	font-size:28px;
@@ -61,7 +61,7 @@ a{
 
 a:active, a:hover{
 	text-decoration:none;
-	color:$color-highlight;
+	color:$gray;
 	transition:0.2s all;
 }
 
