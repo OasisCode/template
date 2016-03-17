@@ -9,6 +9,8 @@
 
 ?>
 	</div><!-- #content -->
+	<div class="push"></div>
+	</div><!-- end of wrapper (also includes header) -->
 	
 	<footer id="mastfooter" class="site-footer" role="contentinfo">
 		<div class="site-info">

@@ -18,17 +18,15 @@
 		//The logo section
 		.navbar-brand{
 			padding:0;
-			padding-top:10px;
+			padding-top:15px;
 
 			img{    
 				
 			}
-
 		}
-	
 
+	} //end of navbar
 } //end of mastheader
-
 
 //Center menu items
 @media (max-width: $screen-md-max) {

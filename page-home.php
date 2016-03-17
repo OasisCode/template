@@ -12,7 +12,7 @@ get_header(); ?>
 		<main id="home" class="site-main" role="main">
 			
 			<div class="container">
-				<p>This is the landing page</p>
+				<p>This is the landing page!</p>
 			</div>
 
 		</main><!-- #main -->

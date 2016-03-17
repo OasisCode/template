@@ -1,3 +1,24 @@
+//Footer Fix - Push to bottom
+
+@media(min-width: $screen-md-min){
+
+	html, body{
+		height:100%;
+	}
+
+	.wrapper{
+		min-height: 100%;
+	    height: auto !important;
+	    height: 100%;
+	    margin: 0 auto $footer-height*-1;
+	}
+
+	#mastfooter, .push{
+		height:$footer-height;
+	}
+
+}
+
 #mastfooter {
 	background-color:$gray;
 
